@@ -7,18 +7,18 @@
 
 **Reproduce original warning**
 
-```sh
+```
 make test
 ```
 
 **No warning**
 
-```sh
+```
 make test2
 ```
 
 **Cleanup venv, etc**
 
-```sh
+```
 make clean
 ```

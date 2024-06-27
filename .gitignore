@@ -1,0 +1,4 @@
+/.coverage
+/build/
+/src/*.egg-info/
+__pycache__/

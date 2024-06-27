@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'mypkg'
+version = '0.1'
+description = "My Package"
+license = {text = 'MIT No Attribution License (MIT-0)'}
+requires-python = ">= 3.8"
+
+[project.optional-dependencies]
+tests = [
+    'unittest-parallel',
+]

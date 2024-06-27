@@ -1,0 +1,1 @@
+from .mypkg import myfunc
